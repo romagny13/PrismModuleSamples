@@ -22,10 +22,10 @@ namespace DependsOnSample
 
         protected override IModuleCatalog CreateModuleCatalog()
         {
-            // With App.Config
+            // With App.config
             return new ConfigurationModuleCatalog();
             // Or 
-            // With DirectoryCatalog
+            // With DirectoryModuleCatalog
             // return new DirectoryModuleCatalog { ModulePath = "Modules" };
         }
 
